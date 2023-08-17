@@ -16,7 +16,7 @@ public class JavaVariables {
         System.out.println("a*b = " + (a * b));
         System.out.println("a/b = " + (a / b));
         System.out.println("a%b = " + (a % b));
-        System.out.println("c + b - a / (a + b) =" + (c + b - a / (a + b)));
+        System.out.println("c + b - a / (a + b) = " + (c + b - a / (a + b)));
 
         //сравнение
         System.out.println("a == c is " + (c == a));
@@ -43,6 +43,16 @@ public class JavaVariables {
         System.out.println("c + d = " + (c + d));
         System.out.println("f - d " + (f - d));
         System.out.println("f = " + (f));
+
+        //if else
+        if (a > b) {
+            System.out.println("a is greater than b");
+        } else {
+            System.out.println("b is greater than a");
+        }
+        if (a < b) {
+            System.out.println("a is less than b");
+        }
 
     }
 }
