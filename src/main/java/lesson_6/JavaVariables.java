@@ -53,6 +53,5 @@ public class JavaVariables {
         if (a < b) {
             System.out.println("a is less than b");
         }
-
     }
 }
